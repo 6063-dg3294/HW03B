@@ -1,6 +1,7 @@
-let maxDiam = 20
+let maxDiam = 40
 let minDiam = 5
-let number = 40
+let xnumber = 50
+let ynumber = 60
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -8,17 +9,18 @@ function setup() {
 
 function draw() {
 
-  background("blue")
-  fill("yellow")
-  randomSeed(3)
+  background(255)
+  fill(193,47,32)
+  stroke(193,47,32)
+  randomSeed(100)
   
-  for (let xpos = 0; xpos <= width; xpos +=random(number)){
-    for (let ypos = 0; ypos <= height; ypos += random(number*3)){
-      for (let dim = maxDiam; dim > 4; dim -= 2){
+  for (let xpos = 0; xpos <= width; xpos +=random(30,xnumber)){
+    for (let ypos = -50; ypos <= height; ypos += random(30, ynumber*4)){
+      
         let mDiam = random(minDiam, maxDiam)
         ellipse(xpos, ypos, mDiam, mDiam)
 
-      }
+      
         
     }
     
@@ -30,3 +32,5 @@ function draw() {
 
 
 }
+
+//for (let dim = maxDiam; dim > 28; dim -= 2){

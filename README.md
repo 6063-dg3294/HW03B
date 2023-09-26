@@ -19,9 +19,21 @@ Image on repo:
 ![image description](./2.png)
 
 
+# 2nd adjustments
+Now, I want to try to customize the points. 
+I made parameters that are larger and easy to manipulate, and changed the colors and stuffs. 
+Image on repo:  
+![image description](./3.png)
+
+Now I met the #1 and #3 requirements.
+Let me think of how to make sure the points don't overlap. I think the logic is: If the distance is controlled, they will be fine. 
+I uplift the minimal range for random to 30 for both xpos and ypos. I adjusted this number based on observation of whether there are circles touching each other and on what direction. Here's my final composition:
+
+Image on repo:  
+![image description](./4.png)
 
 
-
+For improvement, I want to make the dots bigger but closer without overlaping, but that seems like a lot to consider in the logic. 
 
 
 
