@@ -30,7 +30,7 @@ Let me think of how to make sure the points don't overlap. I think the logic is:
 I uplift the minimal range for random to 30 for both xpos and ypos. I adjusted this number based on observation of whether there are circles touching each other and on what direction. Here's my final composition:
 
 Image on repo:  
-![image description](./4.png)
+![image description](./4-2.png)
 
 
 For improvement, I want to make the dots bigger but closer without overlaping, but that seems like a lot to consider in the logic. 
